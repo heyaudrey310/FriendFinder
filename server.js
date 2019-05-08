@@ -15,8 +15,12 @@ var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+app.listen(PORT, function(){
 
-var mysql = require("mysql");
+  console.log("connected to " + PORT);
+})
+
+// var mysql = require("mysql");
 
 // var connection = mysql.createConnection({
 //   host: "localhost",
@@ -26,11 +30,11 @@ var mysql = require("mysql");
 //   database: "friendfinderDB"
 // });
 
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
+// connection.connect(function(err) {
+//   if (err) {
+//     console.error("error connecting: " + err.stack);
+//     return;
+//   }
 
-  console.log("connected as id " + connection.threadId);
-});
+//   console.log("connected as id " + connection.threadId);
+// });
