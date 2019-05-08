@@ -1,5 +1,8 @@
 var path = require("path");
 var friends = require("../../app/data/friends");
+var express = require("express");
+var app = express();
+
 
 //routing the apiRoutes with app.get and app.post functions
 
