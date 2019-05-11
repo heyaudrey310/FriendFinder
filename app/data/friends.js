@@ -1,72 +1,104 @@
+
 var friends = [
     {
-        name: "Jon Snow",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj_n4jFu4riAhUoVd8KHbyaDXcQjRx6BAgBEAU&url=https%3A%2F%2Fwww.theverge.com%2F2019%2F5%2F3%2F18528437%2Fgame-of-thrones-got-season-8-jon-snow-hero-westeros-daenerys-bad-leadership-dragons&psig=AOvVaw3b56iuXSeixK1EnSi2U-DY&ust=1557354440703024",
-
-        scores: [
-            5,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            4,
-            5
-
-        ]
-		
+      name: "Ahmed",
+      photo: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+      scores: [
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
+      ]
     },
     {
-        name: "Arya Stark",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiSzsj72IriAhUCWN8KHdZTDvkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.refinery29.com%2Fen-us%2F2019%2F04%2F231161%2Fhow-did-arya-stark-kill-night-king-game-of-thrones-season-8&psig=AOvVaw3_couhxkDdchgkicnkWz6I&ust=1557362338897899",
-
-        scores: [
-            5,
-            5,
-            4,
-            5,
-            5,
-            4,
-            5,
-            4,
-            5
-        ]
+      name: "Jacob Deming",
+      photo: "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+      scores: [
+        "4",
+        "2",
+        "5",
+        "1",
+        "3",
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
     },
     {
-        name: "Daenerys Targaryen",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjRuIey2YriAhVEiOAKHcPNAJEQjRx6BAgBEAU&url=https%3A%2F%2Fwww.telegraph.co.uk%2Ftv%2F0%2Fdaenerys-targaryen-game-of-thrones-emilia-clarke-mother-dragons%2F&psig=AOvVaw2K6yXdQLijNo4w8pvh85We&ust=1557362452827505",
-
-        scores: [
-            3,
-            4,
-            3,
-            3,
-            4,
-            2,
-            5,
-            3,
-            5
-        ]
+      name: "Jeremiah Scanlon",
+      photo: "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+      scores: [
+        "5",
+        "2",
+        "2",
+        "2",
+        "4",
+        "1",
+        "3",
+        "2",
+        "5",
+        "5"
+      ]
     },
     {
-        name: "Cersei Lannister",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiurojy2YriAhXJnOAKHWoYDJMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.telegraph.co.uk%2Ftv%2F2019%2F05%2F06%2Fwho-could-kill-cersei-lannister-game-of-thrones-season-8-theories%2F&psig=AOvVaw2aHly2niDEhoaeYOjYDGV9&ust=1557362581420279",
-
-        scores: [
-            5,
-            3,
-            4,
-            2,
-            5,
-            2,
-            2,
-            3,
-            5
-        ]
+      name: "Louis T. Delia",
+      photo: "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+      scores: [
+        "3",
+        "3",
+        "4",
+        "2",
+        "2",
+        "1",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      name: "Lou Ritter",
+      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+      scores: [
+        "4",
+        "3",
+        "4",
+        "1",
+        "5",
+        "2",
+        "5",
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      name: "Jordan Biason",
+      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+      scores: [
+        "4",
+        "4",
+        "2",
+        "3",
+        "2",
+        "2",
+        "3",
+        "2",
+        "4",
+        "5"
+      ]
     }
-
-    
-];
-
-module.exports = friends;
+  
+  ];
+  
+  
+  module.exports = friends;
+  
